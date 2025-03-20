@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>To-Do List</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <div class="container-header">
+        <label for="inputTodo" class="sr-only">Add a new task:</label>
+        <input id="inputTodo" class="input-todo" type="text" placeholder="Enter a task..." />
+        <button id="submitTodo" class="submit-todo"><i class="fas fa-plus"></i></button>
+      </div>
+      <ul id="containerTodos" class="container-todos"></ul>
+    </div>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
+
